@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+  --font-main: 'Roboto', sans-serif;
+}
+
+:root{
+  --basic-text: normal 400 16px/24px var(--font-main);
+  --main-title: normal 700 56px/56px var(--font-main);
+  --midd-title: normal 700 32px/40px var(--font-main);
+  --small-title: normal 700 22px/32px var(--font-main);
+}
+
+@media (max-width: 1600px) {
+  :root{
+    --basic-text: normal 400 14px/24px var(--font-main);
+    --main-title: normal 700 48px/48px var(--font-main);
+    --midd-title: normal 700 28px/36px var(--font-main);
+    --small-title: normal 700 18px/28px var(--font-main);
+  }
+}

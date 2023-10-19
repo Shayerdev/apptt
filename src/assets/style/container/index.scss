@@ -1,0 +1,33 @@
+:root{
+  --breackpoint-lg: 1600px;
+  --breackpoint-md: 1200px;
+  --breackpoint-tb: 998px;
+  --breackpoint-mb: 768px;
+  --breackpoint-sm: 480px;
+  --breackpoint-ex: 370px;
+}
+
+:root{
+  --container: 1190px;
+  --container-offset: 0 15px;
+  --container-secondary: 760px;
+}
+
+@media(max-width: 1600px){
+  :root{
+    --container: 998px;
+    --container-secondary: 660px;
+  }
+}
+@media(max-width: 1200px){
+  :root{
+    --container: 768px;
+    --container-secondary: 100%;
+  }
+}
+@media(max-width: 768px){
+  :root{
+    --container: 600px;
+    --container-secondary: 100%;
+  }
+}
