@@ -23,6 +23,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html', // Указываем исходный HTML-файл
+            inject: 'body',
             //filename: 'index.html',      // Указываем имя итогового HTML-файла
         }),
         new MiniCssExtractPlugin({
